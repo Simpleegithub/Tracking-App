@@ -9,6 +9,16 @@
 }
 
 
+.header{
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.whole-summary{
+  /* width: 40%; */
+}
 
 
 #btn{
@@ -54,9 +64,9 @@ img{
 }
 
 
-/* .whole-summary{
+.whole-summary{
  background-color: #F7FDEA;
-} */
+}
 
 
 /* Main Section  */
@@ -121,7 +131,47 @@ margin-bottom: 3px;
 }
 
 
+.radio-buttons{
+ display: flex;
+ gap: 50px;
+ padding-left: 15px;
+ padding-top: 15px;
+ margin-bottom: 10px;
+}
 
+
+
+.first-radio-btn{
+  display: flex;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.first-radio-btn input{
+  
+}
+
+.first-radio-btn label{
+  font-size: 15px;
+}
+
+
+
+.second-radio-btn{
+  display: flex;
+  gap:10px
+}
+
+.second-radio-btn label{
+  font-size: 15px;
+}
+
+.Pickup-Point-1{
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
 
 .Pickup-Point-1 label{
   margin-bottom: 10px;
@@ -303,9 +353,3 @@ table{
 .section-3-content{
   padding-left: 15px;
 }
-
-
-
-
-
-

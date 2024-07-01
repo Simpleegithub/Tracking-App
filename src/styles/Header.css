@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .whole-summary {
+    background-color: #F7FDEA;
+  }
+  

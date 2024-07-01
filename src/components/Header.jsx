@@ -1,5 +1,6 @@
 import ImageComponent from "./ImageComponent"
-import Summary from "./Summary"
+import Summary from "./Summary";
+import  '../styles/Header.css'
 
 function Header() {
     return (

@@ -101,6 +101,25 @@ function Section1() {
             </div>
           )}
 
+          {selectedOption==='MultiPoint' && (
+                 <div className="Pickup-Point-1">
+                 <label htmlFor="">Pickup location 1</label>
+                 <div className="Pickup-group">
+                   <input
+                     type="text"
+                     name=""
+                     id=""
+                     placeholder="Enter Pickup Point 1"
+                     onChange={handlesubmitlocaiton}
+                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                   />
+                   <button className="add-btn" onClick={handleClick}>
+                     +
+                   </button>
+                 </div>
+               </div>
+          )}
+
           {pickupPoint && (
             <div className="Pickup-Point-1">
               <label htmlFor="">{`Drop off location 1 ${pickupPoint}`}</label>

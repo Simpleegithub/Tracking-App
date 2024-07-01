@@ -4,7 +4,7 @@ import image from '../images/image1.png';
 function ImageComponent() {
     return (
         <div>
-            <img src={image} alt="Image" />
+            <img src={image} alt="Image" className=' w-full' />
         </div>
     )
 }

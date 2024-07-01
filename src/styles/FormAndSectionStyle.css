@@ -1,0 +1,175 @@
+.Container {
+    display: flex;
+    width: 100%;
+    padding: 0 5px;
+    flex-wrap: nowrap;
+  
+    @media (max-width: 900px) {
+      flex-wrap: wrap;
+    }
+  }
+  
+  .route {
+    width: 50%;
+  }
+  
+  .main-heading {
+    font-size: 22px;
+    margin: 15px 0px;
+    padding-left: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  
+  .radio-buttons {
+    display: flex;
+    gap: 50px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .Pickup-Point-1 {
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .Pickup-group {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+  }
+  
+  .Pickup-group input {
+    width: 100%;
+    padding: 8px;
+    border-color: #CCCCCC;
+    opacity: 0.7;
+    border-radius: 5px;
+    border-top-color: #CCCCCC !important;
+  }
+  
+  .Pickup-group button {
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .Pickup-group .green-btn {
+    background: linear-gradient(135deg, #85C933, #337A34);
+  }
+  
+  .add-btn {
+    background: linear-gradient(135deg, #85C933, #337A34);
+  }
+  
+  .extra-Km-travel {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+  }
+  
+  .distance {
+    margin-top: -17px;
+    width: 50%;
+    padding-left: 30px;
+  }
+  
+  .distance-heading {
+    padding-left: 15px;
+    margin-top: -15px;
+    font-weight: bold;
+  }
+  
+  .custom-btns {
+    margin-bottom: 18px;
+    margin-top: 2px;
+  }
+  
+  .time-group-btn {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding-left: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .Time-heading {
+    padding-left: 15px;
+    font-weight: bold;
+  }
+  
+  .time {
+    width: 35%;
+  }
+  
+  .time input {
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .third-col-heading {
+    padding-left: 50px;
+  }
+  
+  .whole-loading-time {
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 50px;
+  }
+  
+  .section-2 .main-heading {
+    margin-bottom: 30px;
+  }
+  
+  .section2-subsection {
+    padding-left: 15px;
+  }
+  
+  .section-2 input {
+    width: 70%;
+    margin-bottom: 5px;
+  }
+  
+  .section-2-input {
+    margin-left: -40px;
+  }
+  
+  .section-2-lastInput {
+    margin-left: -55px;
+  }
+  
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #CBF2DC;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .unloading-truck {
+    background-color: rgba(40, 199, 111, 0.24);
+  }
+  
+  .destination-truck {
+    background-color: rgba(255, 159, 67, 0.38);
+  }
+  
+  .Break-point {
+    background-color: rgba(128, 131, 144, 0.24);
+  }
+  
+  .Timeline-heading {
+    padding-left: 15px;
+  }
+  
+  .section-3-content {
+    padding-left: 15px;
+  }
+  
